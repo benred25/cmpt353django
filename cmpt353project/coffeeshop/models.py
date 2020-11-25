@@ -11,10 +11,20 @@ class Item(models.Model):
         return self.name
 
 
+class OrderItem(models.Model):
+    name = models.CharField(max_length=55)
+    price = models.FloatField()
+    quantity = models.IntegerField(default=1)
+
+    def __str__(self):
+        return self.name
+
+
 class Order(models.Model):
-    items = models.ForeignKey(Item, on_delete=models.PROTECT)
+    items = models.ManyToManyField(OrderItem)
     price = models.FloatField()
     ordered_at = models.DateTimeField('order_timestamp')
 
     def __str__(self):
-        return self.items
+        return "Order #"+str(self.id)
+

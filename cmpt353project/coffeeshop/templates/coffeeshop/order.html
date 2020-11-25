@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order</title>
+</head>
+<body>
+    <h1>{{ item.name }}</h1>
+    <form action="{% url 'confirm' %}" method="POST">
+        {% csrf_token %}
+        <label for="quantity">Quantity: </label>
+        <input type="number" id="quantity" name="quantity" min="1">
+        <input type="hidden" id="name" name="name" value="{{ item.name }}" >
+        <input type="submit" value="Confirm">
+    </form>
+</body>
+</html>

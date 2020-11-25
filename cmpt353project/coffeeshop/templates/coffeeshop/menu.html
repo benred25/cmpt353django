@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+</head>
+<body>
+    <h1>Menu</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in item_list %}
+                <tr>
+                    <td>{{ item.name }}</td>
+                    <td>{{ item.price }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <br>
+    <form action="{% url 'order' %}" method="POST">
+        {% csrf_token %}
+        <legend>Order</legend>
+        {% for item in item_list %}
+            <input type="radio" name="item" id="item{{ forloop.counter }}" value="{{ item }}">
+            <label for="item{{ forloop.counter }}">{{ item.name }}</label><br>
+        {% endfor %}
+        <input type="submit" value="Order this item">
+    </form>
+</body>
+</html>
