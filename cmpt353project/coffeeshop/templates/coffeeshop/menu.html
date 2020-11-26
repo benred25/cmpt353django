@@ -82,5 +82,16 @@
             </table>
         {% endfor %}
     </fieldset>
+    <br><br>
+    <form action="{% url 'cancel' %}" method="POST">
+        {% csrf_token %}
+        <fieldset>
+            <legend>Cancel Order</legend>
+            <label for="cancel">Order #</label>
+            <input type="number" id="cancel" name="cancel" min="1">
+            <input type="submit" value="Cancel">
+        </fieldset>
+    </form>
+    <br><br>
 </body>
 </html>
