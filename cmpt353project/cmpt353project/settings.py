@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'cmpt353project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'coffeeshopDB',
+        'NAME': 'postgres',
         'USER': 'root',
         'PASSWORD': 'admin',
-        'HOST': 'localhost',
-        'PORT': '',
+        'HOST': 'db',
+        'PORT': '5432',
     }
 }
 

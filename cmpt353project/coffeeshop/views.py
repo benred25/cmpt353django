@@ -17,13 +17,11 @@ def menu(request):
     item_list = Item.objects.all()
     order_list = Order.objects.all()
     current_order = CurrentOrderItem.objects.all()
-    latest_order = Order.objects.filter().order_by('-id')[0]
-
     # context is the data that can be accessed from the html
     context = {'item_list': item_list,
                'order_list': order_list,
                'current_order': current_order,
-               'latest_order': latest_order}
+               }
 
     return render(request, 'coffeeshop/menu.html', context)
 

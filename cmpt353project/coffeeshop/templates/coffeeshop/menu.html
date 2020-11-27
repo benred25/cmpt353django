@@ -57,7 +57,6 @@
         <form action="{% url 'complete' %}" method="POST">
             {% csrf_token %}
             <input type="submit" value="Complete Order">
-            <p>Your order #{{ latest_order.id }}</p>
         </form>
     </fieldset>
     <br><br>

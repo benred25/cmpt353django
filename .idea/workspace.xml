@@ -1,22 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef542f04-dd6f-4897-bf50-1347b7399db6" name="Default Changelist" comment="" />
+    <list default="true" id="ef542f04-dd6f-4897-bf50-1347b7399db6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cmpt353project/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmpt353project/create_admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmpt353project/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmpt353project/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmpt353project/cmpt353project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmpt353project/cmpt353project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmpt353project/coffeeshop/templates/coffeeshop/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmpt353project/coffeeshop/templates/coffeeshop/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmpt353project/coffeeshop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmpt353project/coffeeshop/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JupyterTrust" id="294c79f7-9ae6-42f6-a1d9-06ee810a9305" />
   <component name="ProjectId" id="1kiPCjbFy0ELGdZAG0bNMfYBiEU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmpt353project" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/cmpt353project/coffeeshop/templates/coffeeshop" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -27,10 +77,31 @@
       <option name="presentableId" value="Default" />
       <updated>1606180313172</updated>
       <workItem from="1606180314226" duration="605000" />
+      <workItem from="1606181155721" duration="677000" />
+      <workItem from="1606259403801" duration="34251000" />
+      <workItem from="1606499716924" duration="4148000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
